@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/GeneralGamePlaying/!svn/ver/41/Scarface/trunk/src/epfl/algo/scarface/player
+END
+RandomPlayer.scala
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/GeneralGamePlaying/!svn/ver/49/Scarface/trunk/src/epfl/algo/scarface/player/RandomPlayer.scala
+END
+EIDAPlayer.scala
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/GeneralGamePlaying/!svn/ver/73/Scarface/trunk/src/epfl/algo/scarface/player/EIDAPlayer.scala
+END
+AbstractPlayer.scala
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/GeneralGamePlaying/!svn/ver/67/Scarface/trunk/src/epfl/algo/scarface/player/AbstractPlayer.scala
+END
+GenericPlayerFactory.scala
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/GeneralGamePlaying/!svn/ver/65/Scarface/trunk/src/epfl/algo/scarface/player/GenericPlayerFactory.scala
+END
+CognizingAgent.scala
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/GeneralGamePlaying/!svn/ver/59/Scarface/trunk/src/epfl/algo/scarface/player/CognizingAgent.scala
+END
+AbstractPlayerFactory.scala
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/GeneralGamePlaying/!svn/ver/48/Scarface/trunk/src/epfl/algo/scarface/player/AbstractPlayerFactory.scala
+END
+UCTPlayer.scala
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/GeneralGamePlaying/!svn/ver/73/Scarface/trunk/src/epfl/algo/scarface/player/UCTPlayer.scala
+END

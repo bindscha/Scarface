@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/GeneralGamePlaying/!svn/ver/41/Scarface/trunk/src/epfl/algo/scarface/proof
+END
+Expr.scala
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/GeneralGamePlaying/!svn/ver/49/Scarface/trunk/src/epfl/algo/scarface/proof/Expr.scala
+END
+State.scala
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/GeneralGamePlaying/!svn/ver/51/Scarface/trunk/src/epfl/algo/scarface/proof/State.scala
+END
+AbstractLogic.scala
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/GeneralGamePlaying/!svn/ver/51/Scarface/trunk/src/epfl/algo/scarface/proof/AbstractLogic.scala
+END
+AbstractReasoner.scala
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/GeneralGamePlaying/!svn/ver/51/Scarface/trunk/src/epfl/algo/scarface/proof/AbstractReasoner.scala
+END
+GenericLogicFactory.scala
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/GeneralGamePlaying/!svn/ver/50/Scarface/trunk/src/epfl/algo/scarface/proof/GenericLogicFactory.scala
+END
+SimpleReasoner.scala
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/GeneralGamePlaying/!svn/ver/51/Scarface/trunk/src/epfl/algo/scarface/proof/SimpleReasoner.scala
+END
+AbstractLogicFactory.scala
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/GeneralGamePlaying/!svn/ver/41/Scarface/trunk/src/epfl/algo/scarface/proof/AbstractLogicFactory.scala
+END
+TuPrologWrapper.scala
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/GeneralGamePlaying/!svn/ver/51/Scarface/trunk/src/epfl/algo/scarface/proof/TuPrologWrapper.scala
+END

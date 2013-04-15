@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Author: Laurent Bindschaedler -->
+<!-- Builds Jocular GGP -->
+<project basedir="." default="dist" name="client">
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.6"/>
+    <property name="source" value="1.6"/>
+    <path id="client.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="build.xml"/>
+    </path>
+	<path id="lib.path.ref">
+    	<fileset dir="bin/lib" includes="*.jar"/>
+     </path>
+    <path id="test.classpath">
+        <pathelement location="bin"/>
+	</path>
+
+    <target name="init" depends="clean">
+        <mkdir dir="bin"/>
+		<copy todir="bin/lib">
+			<fileset dir="lib"/>
+		</copy>
+    </target>
+
+    <target depends="init" name="build">
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" source="${source}" target="${target}">
+            <src path="Jocular/src/"/>
+			<src path="Common/src/"/>
+            <classpath refid="client.classpath"/>
+			<classpath refid="lib.path.ref"/>
+        </javac>
+    </target>
+
+    <target name="dist" depends="build">
+	<jar destfile="jocular.jar">
+	    <manifest>
+		<attribute name="Main-Class" value="stanfordlogic.jocular.Main"/>
+	    </manifest>
+	<fileset dir="bin"/>
+	</jar>
+	</target>
+
+    <target name="clean">
+		<delete dir="bin"/>
+		<delete dir="junit"/>
+		<delete file="jocular.jar"/>
+    </target>
+
+	<target name="run" depends="dist">
+		<java jar="jocular.jar" fork="true" failonerror="true" maxmemory="1024m">
+	             <classpath>
+	                 <pathelement location="jocular.jar"/>
+	             </classpath>
+	    </java>
+	</target>
+</project>
